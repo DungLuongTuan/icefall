@@ -242,7 +242,7 @@ def get_params() -> AttributeDict:
             "batch_idx_train": 0,
             "log_interval": 100,
             "reset_interval": 2000,
-            "valid_interval": 200,
+            "valid_interval": 2000000000,
             "env_info": get_env_info(),
         }
     )

@@ -201,7 +201,7 @@ def export_without_state(
         input_names=["x", "x_lens"],
         output_names=["nll"],
         dynamic_axes={
-            "x": {0: "N", 1: "L"},
+            "x": {0: "N"},
             "x_lens": {0: "N"},
             "nll": {0: "N"},
         },
